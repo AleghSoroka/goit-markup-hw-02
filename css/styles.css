@@ -126,3 +126,55 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+.order-button {
+  color: var(--white);
+  background-color: var(--iris);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.order-button:hover,
+.order-button:focus {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--ocean);
+}
+.hero-section {
+  background-color: var(--grey);
+}
+.hero-caption {
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.section-2-title {
+  text-transform: capitalize;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.section-3 {
+  background-color: var(--cloud);
+}
+.section-3-title {
+  text-transform: capitalize;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--grey);
+}
