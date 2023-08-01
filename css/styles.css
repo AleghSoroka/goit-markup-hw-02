@@ -155,7 +155,7 @@
   text-align: center;
   color: var(--white);
 }
-.section-2-title {
+.section-whatwedo-title {
   text-transform: capitalize;
   font-family: Roboto, sans-serif;
   font-size: 36px;
@@ -165,10 +165,10 @@
   text-align: center;
   color: var(--navy-blue);
 }
-.section-3 {
+.section-team {
   background-color: var(--cloud);
 }
-.section-3-title {
+.section-team-title {
   text-transform: capitalize;
   font-family: Roboto, sans-serif;
   font-size: 36px;
@@ -177,4 +177,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--grey);
+}
+.personal-card {
+  background-color: var(--white);
 }
