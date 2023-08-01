@@ -1,0 +1,124 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--navy-blue);
+  background-color: var(--cornflower);
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--iris);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header-studio {
+  color: var(--navy-blue);
+}
+
+.site-navigation {
+  color: var(--navy-blue);
+}
+
+.site-navigation:hover,
+.site-navigation:focus {
+  color: var(--ocean);
+}
+
+/* Email & Phone */
+.contact-link {
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+.filter-button {
+  color: var(--iris);
+  background-color: var(--cornflower);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.card-title {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.additional-description {
+  color: var(--slate);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-studio {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
