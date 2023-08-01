@@ -15,7 +15,7 @@
 
 .body {
   font-family: 'Roboto', sans-serif;
-  color: var(--navy-blue);
+  color: var(--slate);
   background-color: var(--cornflower);
   font-style: normal;
   line-height: 1.5em;
@@ -46,6 +46,7 @@
 
 .site-navigation {
   color: var(--navy-blue);
+  font-weight: 500;
 }
 
 .site-navigation:hover,
@@ -71,8 +72,8 @@
 
 .filter-button {
   color: var(--iris);
-  background-color: var(--cornflower);
-  font-family: Roboto;
+  background-color: var(--cloud);
+  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
