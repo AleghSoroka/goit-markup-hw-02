@@ -14,9 +14,9 @@
 }
 
 .body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: var(--slate);
-  background-color: var(--cornflower);
+  background-color: var(--white);
   font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -27,6 +27,9 @@
 
 .link {
   text-decoration: none;
+}
+.address-link {
+  font-style: normal;
 }
 
 .logo {
@@ -57,7 +60,7 @@
 /* Email & Phone */
 .contact-link {
   font-style: normal;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -73,7 +76,7 @@
 .filter-button {
   color: var(--iris);
   background-color: var(--cloud);
-  /* font-family: Roboto; */
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -90,7 +93,7 @@
 
 .card-title {
   color: var(--navy-blue);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
@@ -100,7 +103,7 @@
 
 .additional-description {
   color: var(--slate);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -116,7 +119,7 @@
 }
 .footer-text {
   color: var(--cloud);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
